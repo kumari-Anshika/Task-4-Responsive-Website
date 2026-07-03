@@ -45,7 +45,7 @@ The objective of this project is to understand and implement responsive web desi
 ## Project Structure
 
 ```text
-Responsive-Website/
+Responsive-Website (Existing Website)/
 │
 ├── index.html
 ├── style.css
