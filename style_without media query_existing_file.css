@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(120deg,#fff 45%,#391a04 59%);
+}
+
+header,.hero,.nav-links,.nav-icons,.social-icons,.footer-social{
+    display:flex;
+}
+
+header,.hero{
+    justify-content:space-between;
+    align-items:center;
+}
+
+header{padding:25px 8%;}
+
+.logo{
+    font-size:30px;
+    color:#631212;
+    font-weight:bold;
+}
+
+.nav-links{
+    list-style:none;
+    gap:40px;
+}
+
+.nav-links a,.social-icons a{
+    text-decoration:none;
+    color:#090909;
+}
+
+.nav-links a{font-size:18px; 
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px 0px 20px 0px;    }
+
+.nav-icons{
+    gap:20px;
+    font-size:22px;
+    color: #8f4d4d;
+    cursor:pointer;
+}
+
+.hero{
+    padding:40px 8%;
+    gap:40px;
+}
+
+.hero-left,.hero-center,.hero-right{flex:1;}
+
+.small-icons{margin-bottom:30px;}
+
+.small-icons span{
+    font-size:25px;
+    margin-right:10px;
+}
+
+.hero-left h3{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.hero-left h1{
+    font-size:65px;
+    color:#3e1010;
+    margin-bottom:20px;
+}
+
+.hero-left p{
+    max-width:400px;
+    color:#444;
+    line-height:1.8;
+}
+
+.hero-left button{
+    margin-top:40px;
+    padding:15px 40px;
+    border:none;
+    border-radius:30px;
+    background:#932525;
+    color:#fff;
+    cursor:pointer;
+}
+
+.social-icons{
+    gap:30px;
+    margin-top:70px;
+    font-size:28px;
+}
+
+.hero-center{text-align:center;}
+
+.hero-center img{
+    width:100%;
+    max-width:450px;
+    border-radius:50%;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+.hero-right{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.info-card{
+    width:280px;
+    padding:20px;
+    text-align:center;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.info-card img{
+    width:80px;
+    margin-bottom:15px;
+}
+
+footer{
+    margin-top:50px;
+    padding:25px;
+    text-align:center;
+    background:#222;
+    color:#fff;
+}
+
+.footer-social{
+    justify-content:center;
+    gap:25px;
+    margin-top:15px;
+}
+
+.footer-social a{
+    color:#fff;
+    font-size:22px;
+}
+
+
+
